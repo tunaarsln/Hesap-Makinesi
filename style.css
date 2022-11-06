@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 100vh;
+}
+
+.button{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+    background: #0000006b;
+    border-color: #3d4f570e;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+.textview{
+    width: 265px;
+    height: 40px;
+    margin: 3px;
+    font-size: 27px;
+    padding: 13px;
+    background-color: #efefefc1;
+    color: #3d4f57f3;
+    border: black;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*----------Dark Mode--------*/
+
+theme-toggle{
+    position: absolute;
+    right: 630px;
+    top: 175px;
+    z-index: 2;
+}
